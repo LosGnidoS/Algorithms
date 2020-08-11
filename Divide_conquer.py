@@ -14,8 +14,6 @@ def sum_rec(arr):
 		return arr.pop(0) + sum_rec(arr) 
 
 
-
-
 list_array = [2,5,6,7,8,4,3,3]
 print(sum_rec(list_array))
 
