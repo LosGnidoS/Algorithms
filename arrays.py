@@ -1,4 +1,5 @@
-import random
+#!/usr/bin/python3
+#GITHUB ----> LosGnidoS
 
 def findElem(arr,target):
 	for i in range(len(arr)):
@@ -36,4 +37,5 @@ def findMedian(arr):
 		if num_smaller == num_bigger:
 			return arr[i]
 
-array = [random.randint(1,10) for i in range((10))]
+from random import randint
+array = [randint(1,10) for i in range((10))]
